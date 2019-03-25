@@ -4,7 +4,7 @@
 # Recipe RESTful API
 
 # About
-This is a RESTful API for adding, fetching, editing, and deleting a recipe. The project uses Python's Flask to build the RESTful API. There are 11 functions in total. 
+This is a RESTful API for adding, fetching, editing, and deleting a recipe. The project uses Python's Flask to build the RESTful API.
 
 
 # Adding a Recipe
@@ -27,6 +27,11 @@ Response: {"Id":"86516efe-4eae-11e9-b2af-98e0d98ade4d"}
 HTTP Method: GET
 URL: http://127.0.0.1:5000/api/v1/resources/recipes?Id=86516efe-4eae-11e9-b2af-98e0d98ade4d&Name=Tempura&Category=Seafood 
 Query Parameters: Id, Name, or Category
+
+
+# Fetching All Recipes
+HTTP Method: GET
+URL: http://127.0.0.1:5000/api/v1/resources/recipes/all
 
 
 # Editing a Recipe
