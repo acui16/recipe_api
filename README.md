@@ -4,7 +4,7 @@
 # Recipe RESTful API
 
 # About
-This is a RESTful API for adding, fetching, editing, and deleting a recipe. The project uses Python's Flask to build the RESTful API.
+This is a RESTful API for adding, fetching, editing, and deleting a recipe. The project uses Python's Flask to build the RESTful API and Sqlite DB to store recipes.
 
 
 # Adding a Recipe
