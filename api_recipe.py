@@ -137,7 +137,7 @@ def do_post():
 
     conn.commit()
     conn.close()
-    return 'Recipe ' + name_value + ' with Id=' + recipe_id + ' created.'
+    return '{"Id":"' + recipe_id + '"}'
 
 
 # Process request for deleting a recipe
