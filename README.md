@@ -23,7 +23,7 @@ Body:
 Response: {"Id":"86516efe-4eae-11e9-b2af-98e0d98ade4d"}
 
 
-# Fetching a Recipe
+# Fetching One or More Recipes
 HTTP Method: GET
 URL: http://127.0.0.1:5000/api/v1/resources/recipes?Id=86516efe-4eae-11e9-b2af-98e0d98ade4d&Name=Tempura&Category=Seafood 
 Query Parameters: Id, Name, or Category
